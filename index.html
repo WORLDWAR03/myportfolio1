@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="script.js" src="script.js"></script>
+</head>
+    <body>
+
+    <div class="hero-header">
+       <div class="wrapper">
+        <header>
+            <div class="logo">
+                <i class="fab fa-medium-m"></i>
+                <div class="logo-text">Midhun</div>
+            </div>
+            <nav>
+                <div class="togglebtn">
+                    
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+            <ul class="navlinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+
+
+            </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="hero-pic">
+                <img src="image/kendrick.jpg" alt="profile pic">
+            </div> 
+            <div class="hero-text">
+                <h5>Hi I'm <span class="input">Frontend Developer</span></h5>
+                <h1>Midhun M M</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ratione, ea officia harum libero iusto placeat! In sit nobis ea illum vel reiciendis mollitia vero soluta, eligendi consectetur. Incidunt, repellendus.
+                Earum optio eaque maxime aliquid veniam ex, quidem architecto commodi vero soluta praesentium animi fuga sed aliquam itaque neque voluptas id provident non. Architecto reprehenderit officiis placeat id quas accusantium.
+                Quia .
+                <div class="btn-group">
+                    <a href="#" class="btn active">Download CV</a>
+                    <a href="#" class="btn ">Contact</a>
+                </div>
+
+                <div class="social">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/iammidhun.mm/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    
+                </div>
+            </div>
+
+        </div>
+       </div>
+        
+      
+
+    </div>
+
+
+<div class="container2">
+    
+    <div class="form-box">
+            <h1>connect with Me </h1>
+
+        <div>
+
+            <form action="https://script.google.com/macros/s/AKfycbxasWSS7YVl5reBFuCwsIQjpOtR7JvoEpu1ISMdTX6cAUXnYgNuXbckFGYraI8RFhNp/exec" method="post" class="col s6" id="myForm" onsubmit= "return validateForm()">
+                <div class="row">
+                    <div class="input-field col s6">
+                        
+                        <input type="text" placeholder="First Name" id="firstName" name="FirstName" onfocus="validateFirstName()"/>
+                        <span class="helper-text"></span>
+                    </div>
+                    <div class="input-field col s6">
+                    
+                        <input type="text" placeholder="Last Name" name="LastName" id="lastName" onfocus="validateLastName()"/>
+                        <span class="helper-text"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        
+                        <input type="password" placeholder="password" name="Password" id="password" onfocus="validatePassword()"/>
+                        <span class="helper-text"></span>
+
+                    </div>
+                    <div class="input-field col s6">
+                        
+                        <input type="password" placeholder="ConfirmPassword" name="ConfirmPassword" id="confirmPassword" onfocus="validateConfirmPassword()"/>
+                        <span class="helper-text"></span>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="inputt-feild col s12">
+                        
+                        <input type="email" placeholder="Email" name="Email" id="email" onfocus="validateEmail()"/>
+                        <span class="helper-text"></span>
+                    </div>
+
+                </div>
+           <button class="btn waves" type="submit" onclick="validateForm()">
+            SignUp
+           </button>
+            </form>
+
+
+        </div>
+
+       
+            
+
+            
+            
+         
+           
+
+        
+
+       </div>
+    </div>
+
+
+
+     
+    
+
+
+
+   
+
+    <script  src="script.js"> </script>
+   
+    
+</body>
+</html>
